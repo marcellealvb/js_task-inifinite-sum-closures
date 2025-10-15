@@ -5,16 +5,16 @@
  */
 function makeAdder() {
   let x = 0
-  return function adder(y) {
+  return function myAdder(y) {
     if(y === undefined){
       x = 0;
       return x;
     }
      x = x + y;
-    return adder;
+    return myAdder;
 
   }
-  return adder;
+  return myAdder;
 
 
 
