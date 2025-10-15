@@ -14,7 +14,7 @@ function makeAdder() {
     return aadder;
 
   }
-  return aadder;
+  
 
 
 
